@@ -1,0 +1,378 @@
+.techbut{
+    display: inline-block;
+    margin: 20px;
+    height: 85px;
+    border-radius: 10%;
+    width: 40%;
+    border: 3px solid black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    box-shadow: 8px -2px 20px 15px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgb(134, 163, 170);
+    color: #86469C !important;
+}
+
+.sec2{
+    position: relative;
+    animation: floatAnimation 2s ease-in-out infinite;
+    /* box-shadow:  1px -1px 10px 3px rgb(148 103 200) */
+}
+
+
+@keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      /* transform: translateY(-5px); */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.technica_buttons{
+    display: inline-block;
+    width: 45%;
+    /* margin: 20px; */
+    padding: 20px;
+    color: #86469C !important;
+    border: 2px solid rgb(134, 163, 170);
+}
+
+
+.tech1h2 {
+  font-size: 3rem;
+  margin: 30px !important;
+  font-weight: 900; /* Adjusted to make it bold and heavy */
+  text-align: center;
+  color: transparent; /* Hide the text color initially */
+  background: linear-gradient(to right, #86469C, #5B0E70, #86469C); /* Define your gradient colors here */
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: glowing-text 3s ease infinite; /* Adjust animation duration and timing as needed */
+}
+
+@keyframes glowing-text {
+  0% { background-position: 0 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
+}
+.technica_specs{
+    display: inline-block;
+    width:40%;
+    margin: 20px;
+    border: 2px solid rgb(134, 163, 170);
+    padding: 20px 20px;
+    border-radius: 20px;
+    color: #86469C !important;
+    transition: transform 0.3s ease;
+}
+
+.technica_specs {
+    animation: floating 3s ease infinite; /* Tilt left */
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+      transform:   scale(1.1);
+    }
+    100% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+  }
+
+.technica_specs h2{
+    font-weight: bold;
+    color: #86469C !important;
+    
+}
+.techhead{
+    border-bottom: 2px solid black;
+}
+
+
+/* Container for skill bars */
+.specs {
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.specs p {
+    font-weight: bold;
+    color: #86469C !important;
+    margin:12px 0px;
+}
+
+.skillbar {
+    background-color: #f0f0f0;
+    height: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skills {
+    height: 15px;
+    text-align: right;
+    color: black;
+    size: 1rem;
+    font-weight: bold;
+    font-style: inherit;
+    line-height: 11px;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+    /* background-color: blue; */
+}
+
+.specs {
+    opacity: 0;
+    animation: fade-in 0.5s ease-in forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        /* transform: translateY(20px); */
+    }
+    100% {
+        opacity: 1;
+        /* transform: translateY(0); */
+    }
+}
+
+.skill-name,
+.skill-percentage {
+    opacity: 0;
+    animation: fade-in-delay 0.5s ease-in forwards;
+}
+@keyframes fade-in-delay {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.html {width: 100%; background-color: #04AA6D;} /* Green */
+.css {width: 90%; background-color: #2196F3;} /* Blue */
+.js {width: 85%; background-color: #f44336;} /* Red */
+.Ract{width: 70%; background-color: #808080;} /* Dark Grey */
+
+/* second box  */
+.Node {width: 90%; background-color: #04AA6D;} /* Green */
+.exp {width: 80%; background-color: #2196F3;} /* Blue */
+.ejs{width: 65%; background-color: #f44336;} /* Red */
+.api {width: 80%; background-color: #808080;} /* Dark Grey */
+
+/* third box  */
+.mysql {width: 95%; background-color: #04AA6D;} /* Green */
+.mongo {width: 90%; background-color: #2196F3;} /* Blue */
+.Cloudant {width: 85%; background-color: #f44336;} /* Red */
+.db2 {width: 60%; background-color: #808080;} /* Dark Grey */
+
+/* fourth box  */
+.cpp {width: 100%; background-color: #04AA6D;} /* Green */
+.py {width: 90%; background-color: #2196F3;} /* Blue */
+.java {width: 65%; background-color: #808080;} /* Red */
+
+/* fifth box  */
+.Watson {width: 90%; background-color: #04AA6D;} /* Green */
+.SPSS {width: 50%; background-color: #2196F3;} /* Blue */
+.hdp{width: 85%; background-color: #f44336;} /* Red */
+.bda {width: 70%; background-color: #808080;} /* Dark Grey */
+
+/* sixth box */
+.ps {width: 90%; background-color: #04AA6D;} /* Green */
+.com {width: 80%; background-color: #2196F3;} /* Blue */
+.dt {width: 85%; background-color: #f44336;} /* Red */
+.Team {width: 100%; background-color: #808080;} /* Dark Grey */
+
+
+
+
+/* footer styling  */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 150px 10px 5px;
+  }
+  .footer .container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    text-align: center;
+  }
+  .quotation {
+    margin-bottom: 40px;
+    
+  }
+  .quotation h3 {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2.5rem;
+  }
+  .about-me, .section {
+    margin-bottom: 30px;
+  }
+
+  .about-me{
+    text-align: left;
+  }
+  .about-me h4, .section h4, .footer-text p ,.social-media h4 {
+    color: #c2bcbc;
+    margin-bottom: 10px;
+  }
+
+  .section{
+    padding: 0px 110px;
+  }
+
+  ul{
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+  .links li {
+    padding: 0px 10px;
+    list-style:none;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+ 
+  .links .heading {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 10px;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    margin: 5px 12px;
+  }
+  /* .social-icons li:last-child {
+    margin-right: 0;
+  } */
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  ul li :hover{
+ color: #6ccfc7;
+}
+  .quotation:hover,
+  .about-me:hover,
+   ul li:hover,
+  .footer-text p:hover {
+    color: #6ccfc7;
+  }
+
+  .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 10px; /* Optional: space between items */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .links li {
+    margin-bottom: 10px; /* Optional: space between items in the same column */
+  }
+  
+  .links a {
+    text-decoration: none; /* Optional: remove underline from links */
+    color: inherit; /* Optional: inherit text color */
+  }
+  
+
+.footer li{
+  text-align: left;
+}
+  
+  .footer-text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      width: 100%;
+    }
+  }
+
+  hr.custom-hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin: 20px 0;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  hr.custom-hr:before {
+    content: '✦';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #ff7e5f;
+  }
+  
+  hr.custom-hr:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #fff;
+    z-index: -1;
+  }
+  
+
+  @keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.moving-gradient-text {
+  font-size: 2em; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+  background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eac9); /* Define your gradient colors here */
+  background-size: 300% 300%;
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* Vendor-prefixed property for older WebKit browsers */
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 5s ease infinite;
+  
+}

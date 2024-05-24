@@ -1,0 +1,1200 @@
+@media only screen and (max-width: 280px) {
+    /* navbar section  */
+
+    section {
+        margin: 0px auto;
+        padding: 0px 8px;
+    }
+
+    .nav-link {
+        font-size: 11px;
+    }
+
+    .navbar-toggler img {
+        display: inline-block;
+        height: 22px;
+        width: 22px;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+        padding: 18px 18px;
+        text-align: center;
+    }
+
+    .neumorphism-button {
+        padding: 4px 8px;
+        font-size: 11px;
+        margin: 4px auto;
+    }
+
+    /* section 1 */
+
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        margin: 8px;
+    }
+
+    .hero-section {
+        padding: 18px 0px;
+    }
+
+    .name {
+        font-size: 28px !important;
+        line-height: 32px !important;
+    }
+
+    .order-md-1 h2,
+    .dynamic-text {
+        font-size: 1.1rem;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 28px;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 7px;
+        border: 3px;
+        margin: 1px;
+    }
+
+    .logo .img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .tech1h2 {
+        font-size: 1.4rem;
+        margin: 18px !important;
+    }
+
+    /* section 2 styling */
+
+    .technica_buttons {
+        width: 100%;
+        margin: 8px;
+        padding: 5px;
+    }
+
+    .techbut {
+        margin: 8px;
+        width: 38%;
+        padding: 9px;
+        height: 60px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        box-shadow: 3px -2px 5px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    .technica_specs {
+        width: 88%;
+        margin: 12px;
+        padding: 14px;
+    }
+
+    .technica_specs h2 {
+        text-align: center;
+    }
+
+    .skillbar {
+        height: 9px;
+    }
+
+    /* section 3 */
+
+    .timeline-custom {
+        margin: 28px auto;
+    }
+
+    .timeline-container img {
+        left: -1px;
+        top: 20px;
+        width: 50px;
+    }
+
+    .timeline-text-box {
+        font-size: 11px;
+        padding: 9px;
+    }
+
+    .timeline-text-box h2 {
+        font-size: 0.9rem;
+    }
+
+    .timeline-text-box small {
+        font-size: 0.65rem;
+        margin-right: 0px;
+    }
+
+    /* section 4 projects */
+
+    .carousel-item {
+        margin: 8px 38%;
+    }
+
+    .card-custom {
+        width: 100%;
+    }
+
+    /* section 7 */
+
+    .card-certi {
+        width: 180px;
+    }
+
+    .card-certi img {
+        height: 140px;
+    }
+
+    /* section 8 */
+
+    #conme {
+        padding: 20px 14px;
+    }
+
+    /* section 9 */
+
+    .contact-me {
+        max-width: 83%;
+        margin: 18px auto;
+        padding: 11px;
+        top: 118px;
+    }
+
+    .cllme {
+        font-size: 0.9rem;
+    }
+
+    .contact-button {
+        font-size: 0.75rem;
+        padding: 6px 13px;
+    }
+
+    /* footer section form */
+
+    .quotation h3 {
+        font-size: 1.1rem;
+    }
+
+    .section {
+        padding: 0px;
+    }
+
+    .section h4 {
+        text-align: left;
+    }
+
+    .links {
+        padding: 0px;
+    }
+
+    .links li {
+        padding: 0px;
+        text-align: left;
+    }
+
+    .social-icons li {
+        font-size: 0.65rem;
+    }
+
+    .footer-text p {
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (min-width:281px) and (max-width: 300px) {
+    /* navbar section  */
+
+    section {
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-toggler img {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .neumorphism-button {
+        padding: 5px 10px;
+        font-size: 12px;
+        margin: 5px auto;
+
+    }
+
+
+    /* section 1 \*/
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .hero-section {
+        padding: 20px 0px;
+    }
+
+    .name {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+
+    .order-md-1 h2,
+    dynamic-text {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 8px;
+        border: 3px;
+        margin: 2px;
+    }
+
+    .logo .img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .tech1h2 {
+        font-size: 1.5rem;
+        margin: 20px !important;
+
+    }
+
+
+    /* section 2 styling  */
+    .technica_buttons {
+        width: 100%;
+        margin: 10px;
+        padding: 6px;
+
+    }
+
+    .techbut {
+        margin: 10px;
+        width: 40%;
+        padding: 10px;
+        height: 65px;
+        font-size: 1rem;
+        font-weight: bold;
+        box-shadow: 3px -2px 5px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    .technica_specs {
+        width: 90%;
+        margin: 14px;
+        padding: 15px;
+
+    }
+
+    .technica_specs h2 {
+        text-align: center;
+    }
+
+    .skillbar {
+        height: 10px;
+    }
+
+
+    /* section 3  */
+
+    .timeline-custom {
+        margin: 30px auto;
+    }
+
+    .timeline-container img {
+        left: -1px;
+        top: 22px;
+        width: 53px;
+
+    }
+
+    .timeline-text-box {
+        font-size: 12px;
+        padding: 10px;
+
+
+    }
+
+    .timeline-text-box h2 {
+        font-size: 1rem;
+    }
+
+    .timeline-text-box small {
+        font-size: 0.7rem;
+        margin-right: 0px;
+    }
+
+
+
+    /* section 4 projects  */
+
+    .carousel-item {
+        margin: 10px 40%;
+    }
+
+    .card-custom {
+        width: 100%;
+    }
+
+    /* .card-custom img {
+
+    } */
+
+    /* section 7  */
+
+    .card-certi {
+        width: 200px;
+    }
+
+    .card-certi img {
+        height: 150px;
+    }
+
+
+    /* section 8 */
+
+    #conme {
+        padding: 22px 16px;
+
+    }
+
+    /* section 9  */
+
+    .contact-me {
+        max-width: 85%;
+        margin: 20px auto;
+        padding: 12px;
+        top: 120px;
+
+    }
+
+    .cllme {
+        font-size: 1rem;
+    }
+
+    .contact-button {
+        font-size: 0.8rem;
+        padding: 7px 14px;
+    }
+
+
+    /* footer section form  */
+
+    .quotation h3 {
+        font-size: 1.2rem;
+    }
+
+    .section {
+        padding: 0px;
+    }
+
+    .section h4 {
+        text-align: left;
+    }
+
+    .links {
+        padding: 0px;
+    }
+
+    .links li {
+        padding: 0px;
+        text-align: left;
+    }
+
+    .social-icons li {
+        font-size: .7rem;
+    }
+
+    .footer-text p {
+        font-size: 13px;
+    }
+
+
+
+}
+
+
+
+/* now for little bigger screens :)  */
+
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+    /* navbar section  */
+
+    section {
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .navbar-toggler img {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .neumorphism-button {
+        padding: 5px 10px;
+        font-size: 14px;
+        margin: 5px auto;
+    }
+
+    /* section 1 */
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .hero-section {
+        padding: 20px 0px;
+    }
+
+    .name {
+        font-size: 32px !important;
+        line-height: 37px !important;
+    }
+
+    .order-md-1 h2,
+    .dynamic-text {
+        font-size: 1.4rem;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 8px;
+        border: 3px;
+        margin: 2px;
+    }
+
+    .logo .img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .tech1h2 {
+        font-size: 1.7rem;
+        margin: 20px !important;
+    }
+
+    /* section 2 styling */
+    .technica_buttons {
+        width: 100%;
+        /* margin: 10px; */
+        padding: 6px;
+    }
+
+    .techbut {
+        margin: 10px;
+        width: 40%;
+        padding: 10px;
+        height: 51px;
+        font-size: 1rem;
+        font-weight: bold;
+        box-shadow: 3px -2px 5px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    .technica_specs {
+        width: 90%;
+        margin: 14px;
+        padding: 15px;
+    }
+
+    .technica_specs h2 {
+        text-align: center;
+    }
+
+    .skillbar {
+        height: 10px;
+    }
+
+    /* section 3 */
+
+    .timeline-custom {
+        margin: 30px auto;
+    }
+
+    .timeline-container img {
+        left: -1px;
+        top: 22px;
+        width: 53px;
+    }
+
+    .timeline-text-box {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .timeline-text-box h2 {
+        font-size: 1.2rem;
+    }
+
+    .timeline-text-box small {
+        font-size: 0.8rem;
+        margin-right: 0px;
+    }
+
+    /* section 4 projects */
+
+    .carousel-item {
+        margin: 10px 40%;
+    }
+
+    .card-custom {
+        width: 100%;
+    }
+
+    /* section 7 */
+
+    .card-certi {
+        width: 200px;
+    }
+
+    .card-certi img {
+        height: 150px;
+    }
+
+    /* section 8 */
+
+    #conme {
+        padding: 22px 16px;
+    }
+
+    /* section 9 */
+
+    .contact-me {
+        max-width: 85%;
+        margin: 20px auto;
+        padding: 12px;
+        top: 120px;
+    }
+
+    .cllme {
+        font-size: 1.1rem;
+    }
+
+    .contact-button {
+        font-size: 0.9rem;
+        padding: 7px 14px;
+    }
+
+    /* footer section form */
+
+    .quotation h3 {
+        font-size: 1.3rem;
+    }
+
+    .section {
+        padding: 0px;
+    }
+
+    .section h4 {
+        text-align: left;
+    }
+
+    .links {
+        padding: 0px;
+    }
+
+    .links li {
+        padding: 0px;
+        text-align: left;
+    }
+
+    .social-icons li {
+        font-size: 0.8rem;
+    }
+
+    .footer-text p {
+        font-size: 14px;
+    }
+}
+
+
+
+/* for little more bigger screens */
+
+@media only screen and (min-width:450px) and (max-width:526px) {
+    section {
+        margin: 0px auto;
+        padding: 0px 20px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .navbar-toggler img {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px 30px;
+        text-align: center;
+    }
+
+    .neumorphism-button {
+        padding: 8px 15px;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+
+    /* section 1 */
+
+    .profile-img {
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
+
+    .hero-section {
+        padding: 30px 0px;
+    }
+
+    .name {
+        font-size: 36px !important;
+        line-height: 40px !important;
+    }
+
+    .order-md-1 h2,
+    .dynamic-text {
+        font-size: 1.6rem;
+    }
+
+    .description {
+        font-size: 18px;
+        line-height: 34px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 10px;
+        border: 3px;
+        margin: 4px;
+    }
+
+    .logo .img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .tech1h2 {
+        font-size: 2rem;
+        margin: 30px !important;
+    }
+
+    /* section 2 styling */
+    .technica_buttons {
+        width: 100%;
+
+        padding: 8px;
+    }
+
+    .techbut {
+        margin: 15px;
+        width: 41%;
+        padding: 12px;
+        height: 70px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 3px -2px 5px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    .technica_specs {
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .technica_specs h2 {
+        text-align: center;
+    }
+
+    .skillbar {
+        height: 12px;
+    }
+
+    /* section 3 */
+
+    .timeline-custom {
+        margin: 40px auto;
+    }
+
+    .timeline-container img {
+        left: -1px;
+        top: 22px;
+        width: 60px;
+    }
+
+    .timeline-text-box {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .timeline-text-box h2 {
+        font-size: 1.4rem;
+    }
+
+    .timeline-text-box small {
+        font-size: 0.9rem;
+        margin-right: 0px;
+    }
+
+    /* section 4 projects */
+
+    .carousel-item {
+        margin: 20px 35%;
+    }
+
+    .card-custom {
+        width: 100%;
+    }
+
+    /* section 7 */
+
+    .card-certi {
+        width: 250px;
+    }
+
+    .card-certi img {
+        height: 180px;
+    }
+
+    /* section 8 */
+
+    #conme {
+        padding: 30px 20px;
+    }
+
+    /* section 9 */
+
+    .contact-me {
+        max-width: 90%;
+        margin: 30px auto;
+        padding: 20px;
+        top: 120px;
+    }
+
+    .cllme {
+        font-size: 1.2rem;
+    }
+
+    .contact-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* footer section form */
+
+    .quotation h3 {
+        font-size: 1.5rem;
+    }
+
+    .section {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .section h4 {
+        text-align: center;
+    }
+
+    .links {
+        padding: 0px;
+    }
+
+    .links li {
+        padding: 0px;
+
+    }
+
+    .social-icons li {
+        font-size: 0.9rem;
+    }
+
+    .footer-text p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* for little more bigger screens :)) */
+
+@media only screen and (min-width: 527px) and (max-width: 750px) {
+    /* navbar section  */
+
+    section {
+        margin: 0px auto;
+        padding: 0px 20px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .navbar-toggler img {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px 30px;
+        text-align: center;
+    }
+
+    .neumorphism-button {
+        padding: 8px 15px;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+
+    /* section 1 */
+
+    .profile-img {
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
+
+    .hero-section {
+        padding: 30px 0px;
+    }
+
+    .name {
+        font-size: 36px !important;
+        line-height: 40px !important;
+    }
+
+    .order-md-1 h2,
+    .dynamic-text {
+        font-size: 1.6rem;
+    }
+
+    .description {
+        font-size: 18px;
+        line-height: 34px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 10px;
+        border: 3px;
+        margin: 4px;
+    }
+
+    .logo .img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .tech1h2 {
+        font-size: 2rem;
+        margin: 30px !important;
+    }
+
+    /* section 2 styling */
+    .technica_buttons {
+        width: 100%;
+        /* margin: 20px; */
+        padding: 8px;
+    }
+
+    .techbut {
+        margin: 10px;
+        width: 45%;
+        padding: 12px;
+        height: 70px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 3px -2px 5px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    .technica_specs {
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .technica_specs h2 {
+        text-align: center;
+    }
+
+    .skillbar {
+        height: 12px;
+    }
+
+    /* section 3 */
+
+    .timeline-custom {
+        margin: 40px auto;
+    }
+
+    .timeline-container img {
+        left: -1px;
+        top: 22px;
+        width: 60px;
+    }
+
+    .timeline-text-box {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .timeline-text-box h2 {
+        font-size: 1.4rem;
+    }
+
+    .timeline-text-box small {
+        font-size: 0.9rem;
+        margin-right: 0px;
+    }
+
+    /* section 4 projects */
+
+    .carousel-item {
+        margin: 20px 35%;
+    }
+
+    .card-custom {
+        width: 100%;
+    }
+
+    /* section 7 */
+
+    .card-certi {
+        width: 250px;
+    }
+
+    .card-certi img {
+        height: 180px;
+    }
+
+    /* section 8 */
+
+    #conme {
+        padding: 30px 20px;
+    }
+
+    /* section 9 */
+
+    .contact-me {
+        max-width: 90%;
+        margin: 30px auto;
+        padding: 20px;
+        top: 120px;
+    }
+
+    .cllme {
+        font-size: 1.2rem;
+    }
+
+    .contact-button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* footer section form */
+
+    .quotation h3 {
+        font-size: 1.5rem;
+    }
+
+    .section {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .section h4 {
+        text-align: center;
+    }
+
+    .links {
+        padding: 0px;
+    }
+
+    .links li {
+        padding: 0px;
+
+    }
+
+    .social-icons li {
+        font-size: 0.9rem;
+    }
+
+    .footer-text p {
+        font-size: 16px;
+    }
+}
+
+
+
+/* for more bigger screens : ) */
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+
+    .profile-img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .description {
+        text-align: center;
+        width: 100%;
+    }
+
+    .technica_buttons {
+        width: 100%;
+        /* margin: 20px; */
+        padding: 8px;
+    }
+
+    .techbut {
+        margin: 10px;
+        width: 45%;
+        padding: 12px;
+        height: 70px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 3px -2px 5px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    .technica_specs {
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .technica_specs h2 {
+        text-align: center;
+    }
+
+    .skillbar {
+        height: 12px;
+    }
+    .links li{
+        text-align: center;
+    }
+    .sm {
+        text-align: center;
+        margin: 5px auto;
+    }
+}
+
+
+
+/* for more bigger screens :) */
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .description {
+        text-align: center;
+        width: 100%;
+    }
+
+    .profile-img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .technica_buttons {
+        width: 100%;
+        margin: 3px;
+        padding: 8px;
+
+    }
+
+    .techbut {
+        margin: 10px;
+        width: 45%;
+        padding: 12px;
+        height: 70px;
+
+        font-size: 1.2rem;
+        font-weight: bold;
+        box-shadow: 3px -2px 5px 1px rgba(255, 255, 255, 0.2);
+    }
+
+    .technica_specs {
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .technica_specs h2 {
+        text-align: center;
+    }
+
+    .skillbar {
+        height: 12px;
+    }
+
+   
+
+    .sm {
+        text-align: center;
+        margin: 5px auto;
+    }
+}
+
+
+
+
+@media only screen and (min-width:1201px) {
+    .technica_buttons {
+        margin: 20px;
+    }
+}
